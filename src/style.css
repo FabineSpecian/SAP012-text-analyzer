@@ -1,0 +1,100 @@
+#reset-button{
+    cursor: pointer;
+    height:40px;
+    width:300px;
+    margin:auto;
+    display: block;
+    border-radius:30px;
+    border:2px solid white;
+    background-color:rgba(111, 252, 130, 0.884);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bolder;
+    color:black;
+}
+
+header{
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+    text-shadow: 5px 5px 5px white; 
+}
+
+textarea[name="user-input"] {
+    width: 550px; 
+    height: 350px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color:rgb(247, 229, 67);
+    font-size: 20px;
+    align-items: center; 
+    text-align: center;
+    color:black;
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 20px;
+    justify-content: center;
+}
+
+footer{
+    color: black;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align:right;
+}
+
+footer p::after {
+    content: ' \2665'; /* símbolo do coração */
+    font-size: 30px; /* tamanho do coração */
+    color:red; 
+}
+
+.li{
+    color:white;
+    text-align:left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px;
+    font-weight: bolder;
+    padding:20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin:auto;
+    margin-bottom: 3px;
+    background:rgb(255, 92, 155);
+    width: 500px;
+}
+
+ul {
+    list-style: none;  
+}
+
+body{
+    text-align: center;
+    text-align: center;
+    background: white;
+    color: white;
+    background-color: #fff;
+    animation: changeColor 9s infinite;
+}
+
+@keyframes changeColor {
+    0% { background-color: #fff; }
+    50% { background-color: rgb(250, 234, 92); }
+    100% { background-color: #fff; }
+}
+
+div[name="columns-container"] {
+    display: flex;
+    width: 100%;
+    max-width: 100%; 
+    margin:auto;
+}
+
+div[name="column"] {
+    flex: 1;
+    box-sizing: border-box;
+    margin: 100px; 
+}
