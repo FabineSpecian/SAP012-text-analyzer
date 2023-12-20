@@ -39,7 +39,6 @@ function clearAllMetricsAndText() {
 
 
 textarea.addEventListener("keyup", allMetricsUpdate); 
-
+textarea.addEventListener('input', allMetricsUpdate);
 button.addEventListener("click", clearAllMetricsAndText); 
 
-textarea.addEventListener('input', allMetricsUpdate);
