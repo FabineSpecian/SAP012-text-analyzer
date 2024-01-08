@@ -1,4 +1,4 @@
-const analyzer = {  
+const analyzer = {
   getWordCount: (text) => {
     const pattern = /[a-zA-Z0-9_]/; /*Cria uma expressão regular (RegExp) com o padrão de caracteres de letras maiúsculas e minúsculas, números e o caractere _ */
     if (text.trim().length === 0 || !pattern.test(text)) { /*text.trim().length === 0: Verifica se o texto está vazio. ||(OU) !pattern.test(text): Verifica se o texto não contém caracteres do padrão definido pela const pattern. */
@@ -7,7 +7,7 @@ const analyzer = {
     const palavrasNoTexto = text.trim().split(" "); /*Remove espaços em branco extras do início e do final do texto e divide o texto em um array de palavras separadas por espaços.*/
     return palavrasNoTexto.length; /*Retorna o número de palavras no texto, calculado pela contagem de elementos no array criado pela divisão das palavras. */
   },
-  
+
 
   getCharacterCount: (text) => {
     return text.length; /*retorna o número de caracteres incluindo espaços, letras, números, símbolos...presentes na string text. */
@@ -15,7 +15,7 @@ const analyzer = {
 
 
   getCharacterCountExcludingSpaces: (text) => {
-    const pattern = /[a-zA-Z0-9_]/; 
+    const pattern = /[a-zA-Z0-9_]/;
     if (text.trim().length === 0 || !pattern.test(text)) {
       return 0;
     }
@@ -24,8 +24,8 @@ const analyzer = {
     return totalDeCaracteres.length; /*Retorna o comprimento da string totalDeCaracteres, ou seja, o número de caracteres restantes após a remoção dos caracteres especificados na const regex. Isso retorna a contagem de caracteres no texto, excluindo espaços e outros caracteres especificados na const regex.*/
   },
 
-  
-  getAverageWordLength: (text) => {    
+
+  getAverageWordLength: (text) => {
     const pattern = /[a-zA-Z0-9_]/;
     if (text.trim().length === 0 || !pattern.test(text)) {
       return 0;
@@ -34,7 +34,7 @@ const analyzer = {
     let comprimentoDaPalavra = 0; /* Cria uma varável (let e não const, porque o valor irá variar) comprimentoDaPalavra, incialmente com o valor 0 */
     for (let index = 0; index < palavrasENumeros.length; index++) {
       const word = palavrasENumeros[index]; /*Para cada acesso do loop, uma palavra é atribuída à variável word.*/
-      comprimentoDaPalavra = comprimentoDaPalavra+ word.length; /*O comprimento da palavra atual é adicionado ao total armazenado na variável comprimentoDaPalavra.*/
+      comprimentoDaPalavra = comprimentoDaPalavra + word.length; /*O comprimento da palavra atual é adicionado ao total armazenado na variável comprimentoDaPalavra.*/
     }
     const media = comprimentoDaPalavra / palavrasENumeros.length; /*Cria const media que é comprimentoDaPalavra dividido pelo pelo palavrasENumeros.*/
     return parseFloat(media.toFixed(2)); /*A média do comprimento é arredondada para duas casas decimais pelo método toFixed(2) e convertida para um número de ponto flutuante usando parseFloat. Esse valor médio é o comprimento médio de palavras. */
@@ -44,7 +44,7 @@ const analyzer = {
   getNumberCount: (text) => {
     const pattern = /[a-zA-Z0-9_]/;
     if (text.trim().length === 0 || !pattern.test(text)) {
-        return 0;
+      return 0;
     }
     const regex = /[.,!?]$/g;
     const textoSemPontuacao = text.replace(regex, ""); /* Cria uma const textoSemPontuacao que armazena o resultado, esse resultado é o método replace para substituir todos os caracteres correspondentes à const regex por uma string vazia ""*/
@@ -56,12 +56,12 @@ const analyzer = {
       }
     });
     return totalDeNumeros;
-},
+  },
 
 
   getNumberSum: (text) => {
     const regex = /[.,!?]$/g; /*Cria const regular (regex) que busca por caracteres de pontuação (como ponto, vírgula, ponto de exclamação ou ponto de interrogação) no final das palavras. */
-    const textoSemPontuacao= text.replace(regex, ""); /* Utiliza o método replace da string, a const regular regex é usada para substituir todos os caracteres de pontuação encontrados no final das palavras por uma string vazia, removendo-os. O resultado é armazenado na const textoSemPontuacao.*/
+    const textoSemPontuacao = text.replace(regex, ""); /* Utiliza o método replace da string, a const regular regex é usada para substituir todos os caracteres de pontuação encontrados no final das palavras por uma string vazia, removendo-os. O resultado é armazenado na const textoSemPontuacao.*/
     const palavrasENumeros = textoSemPontuacao.trim().split(" "); /* Cria const palavrasENumeros em que a string é dividida em palavras usando o método split, considerando o espaço como delimitador, onde cada elemento representa uma palavra ou um número isolado após a remoção da pontuação. */
     let somaDeNumeros = 0; /* Cria uma varável (let e não const, porque o valor irá variar) somaDeNumeros para armazenar a soma dos números encontrados na string.*/
     palavrasENumeros.forEach((word) => { /*loop forEach para para acessar sobre cada elemento do array palavrasENumeros. */
@@ -75,7 +75,7 @@ const analyzer = {
     });
     return somaDeNumeros;
   },
-  
+
 };
 
 export default analyzer;
