@@ -18,12 +18,10 @@
 
 ## 1. Considerações gerais
 
-- Este projeto será resolvido de forma **individual**.
-- A estimativa de tempo para completar o projeto varia de 2 a 4 Sprints.
-- Concentre-se em aprender, não apenas em "completar" o projeto.
-- Sugerimos que você não tente saber tudo antes de começar a codificar.
-  Não se preocupe muito com o que você _ainda_ não entende.
-  Você aprenderá ao longo do processo.
+- Este projeto foi desenvolvido de forma individual, mas contou com a apoio a Labortatoria (coaches e colagas).
+- O tempo para a realização do projeto de 4 Sprints (4 semanas).
+- O aprendizado não ocorreu de forma cíclica, foi um processo único e de constante evolução.
+
 
 ## 2. Preâmbulo
 
