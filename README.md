@@ -18,7 +18,7 @@
 
 ## 1. Considerações gerais
 
-- Este projeto foi desenvolvido de forma individual, mas contou com a apoio a Labortatoria (coaches e colagas).
+- Este projeto foi desenvolvido de forma individual, mas contou com a apoio a Laboratoria (coaches e colagas).
 - O tempo para a realização do projeto de 4 Sprints (4 semanas).
 - O aprendizado não ocorreu de forma cíclica, foi um processo único e de constante evolução.
 
