@@ -1,4 +1,5 @@
-<img src="\src\bannerAnalyzer.png">
+
+![bannerAnalyzer](https://github.com/FabineSpecian/SAP012-text-analyzer/blob/main/src/bannerAnalyzer.png?raw=true)
 
 # Analisador de Texto
 
@@ -24,8 +25,6 @@
 ## 2. Resumo do projeto
 ![Tela do Analyzer](https://github.com/Laboratoria/curriculum/assets/92090/2b45f653-69a5-4282-a65c-d34125c36113)
 
-_Créditos: Foto de [ethan](https://unsplash.com/fr/@andallthings?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
-_em [Unsplash](https://unsplash.com/es/fotos/72NpWZJOskU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 
 Um analisador de texto é uma aplicação para extrair informações úteis de um
 texto utilizando diversas técnicas, como o processamento de linguagem natural
