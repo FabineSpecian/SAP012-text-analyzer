@@ -17,9 +17,16 @@
 
 ## 1. Considerações gerais
 
+<<<<<<< HEAD
 - Este projeto foi desenvolvido por Fabine Specian com a mentoria da Laboratoria (coaches e colegas).
 - O tempo da realização do projeto foi de aproximadamente 4 Sprints (4semana)
 - O aprendizado não foi um processo cíclico, foi um processo único e de construção do conhecimento.
+=======
+- Este projeto foi desenvolvido de forma individual, mas contou com a apoio a Laboratoria (coaches e colagas).
+- O tempo para a realização do projeto de 4 Sprints (4 semanas).
+- O aprendizado não ocorreu de forma cíclica, foi um processo único e de constante evolução.
+
+>>>>>>> c165731c7263be35694f5d1bf14124ff5a3cd38b
 
 ## 2. Resumo do projeto
 ![Tela do Analyzer](https://github.com/Laboratoria/curriculum/assets/92090/2b45f653-69a5-4282-a65c-d34125c36113)
