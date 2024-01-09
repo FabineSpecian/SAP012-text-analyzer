@@ -1,4 +1,4 @@
-<img src="/src/bannerAnalyzer.png">
+<img src="\src\bannerAnalyzer.png">
 
 # Analisador de Texto
 
