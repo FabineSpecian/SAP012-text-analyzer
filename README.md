@@ -12,7 +12,7 @@
 - [5. Objetivos de Aprendizagem](#5-objetivos-de-aprendizagem)
 - [6. Testes](#6-testes)
 - [7. Ferramentas utilizadas no processo](#7-ferramentas-utilizadas-no-processo)
-- [8. Autora](#8-autora)
+- [8. Sobre a autora](#8-sobre-a-autora)
 
 
 ---
@@ -292,14 +292,13 @@ A seguir estão os objetivos de aprendizagem percorridos durante a realização 
 
 - **Projetar em diferentes níveis de fidelidade**
 
-  + Foram criados protótipos de baixa fidelidade para a UI (interface gráfica).
+  + Foi criados protótipos de baixa fidelidade para a UI (interface gráfica). Abaixo segue o prototipo do projeto. 
 
+![prototipo](https://github.com/FabineSpecian/SAP012-text-analyzer/blob/main/src/Prototipo.png?raw=true)
 
+O resultado final segue algumas estruturas, commo a dividão em duas colunas, a primeira com a caixa de texto e botão Limpar e a segunda com as métricas apresentadas ao usuário.
+Essas alterações foram consideradas ao longo projeto, pois busquei trazer a identidade da Laboratoria, com suas cores no design da aplicação.
 
-
-
-
-  
 
 - **Seguir os princípios básicos do design visual**
 
@@ -307,7 +306,7 @@ A seguir estão os objetivos de aprendizagem percorridos durante a realização 
 
 ## 6. Testes
 
-Este projeto conta com 3 conjuntos de testes para verificar se
+Este projeto contou com 3 conjuntos de testes para verificar se
 os critérios mínimos de aceitação são cumpridos.
 
 ### Testes Unitários
@@ -392,15 +391,17 @@ na imagem a seguir:
     - **Anotações**: a apl
 
 
-## 8. Autora
----
+## 8. Sobre a autora
 
 <a href="https://github.com/FabineSpecian" src="" width="100px;" alt=""/>
  <br />
- <sub><b>Fabine Specian</b></sub></a> <a href="https://github.com/FabineSpecian" title="https://github.com/FabineSpecian">🚀</a>
 
+<sub><b>Fabine Specian</b></sub></a> <a href="https://github.com/FabineSpecian" title="https://github.com/FabineSpecian"></a>
 
-Feito com ❤️ por Fabine Specian 👋🏽 Entre em contato!
+---
+Estudante do bootcamp Laboratoria com ênfase em desenvolvimento front-end com foco nas linguagens HTML, CSS e JavaScript. Está em constante busca por oportunidades para aprimorar habilidades de programação e crescer na área de tecnologia. Motivada a aplicar conhecimentos adquiridos nos estudos, está em transição de carreira (formação inicial em Pedagogia). 
+Entusiasta em contribuir para projetos desafiadores. 
+
 
 [![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/tgmarinho/) 
 
