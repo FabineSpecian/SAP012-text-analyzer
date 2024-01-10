@@ -398,8 +398,7 @@ na imagem a seguir:
  <br />
 
 <sub><b>Fabine Specian</b></sub></a> <a href="https://github.com/FabineSpecian" title="https://github.com/FabineSpecian"></a>
-
----
+--
 Estudante do bootcamp Laboratoria com ênfase em desenvolvimento front-end com foco nas linguagens HTML, CSS e JavaScript. Está em constante busca por oportunidades para aprimorar habilidades de programação e crescer na área de tecnologia. Motivada a aplicar conhecimentos adquiridos nos estudos, está em transição de carreira (formação inicial em Pedagogia). 
 Entusiasta em contribuir para projetos desafiadores. 
 
