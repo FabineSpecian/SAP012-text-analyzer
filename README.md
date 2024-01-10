@@ -123,7 +123,7 @@ Este objeto (`analyzer`) contém seis métodos:
    
   - `analyzer.getWordCount(text)`: esta função deve retornar a contagem de
   palavras que estão no parâmetro `text` do tipo `string`.
-  - **`analyzer.getCharacterCount(text)`: esta função deve retornar a
+  - `analyzer.getCharacterCount(text)`: esta função deve retornar a
   contagem de caracteres que estão no parâmetro `text` do tipo `string`.
   - `analyzer.getCharacterCountExcludingSpaces(text)`: esta função deve
   retornar a contagem de caracteres excluindo espaços e sinais de pontuação
@@ -154,135 +154,57 @@ A seguir estão os objetivos de aprendizagem percorridos durante a realização 
 
 - **Uso de HTML semântico**
 
-  + A aplicação possui um cabeçalho composto por um `<header>` que é pai de um `<h1>` com o texto `Analisador de texto`. Para o projeto os elementos não puderam ter atributos `id`, `name` ou `class`.
-
-  + A aplicação utiliza um `<textarea>` com o atributo `name` com o valor `user-input` para permitir à usuária inserir um texto. Para o projeto os elementos não puderam ter atributos `id` ou `class`.
-
-  + A aplicação utiliza uma `<ul>` com 6 filhos `<li>`, um para exibir cada métrica. Para o projeto os elementos não puderam ter atributos `id`, `name` ou filhos.
-
-  + O`<li>` para exibir a _contagem de palavras_ tem um atributo `data-testid` com o valor `word-count`.
-
-  + O `<li>` para exibir a _contagem de caracteres_ tem um atributo `data-testid` com o valor `character-count`.
-
-  + O `<li>` para exibir a _contagem de caracteres excluindo espaços e sinais de pontuação_ tem um atributo `data-testid` com o valor `character-no-spaces-count`.
-
-  + O `<li>` para exibir a _contagem de números_ tem um atributo `data-testid` com o valor `number-count`.
-
-  + O `<li>` para exibir a _soma total de números_ tem um atributo `data-testid` com o valor `number-sum`.
-
-  + O `<li>` para exibir o _comprimento médio das palavras_ tem um atributo `data-testid` com o valor `word-length-average`.
-
-  + A aplicação possui um rodapé composto por um`<footer>` que é pai de um `<p>`que possui o nome Fabine Specian desenvolvedora da aplicação como texto. Para o projeto os elementos não puderam ter atributos `id`, `name` ou `class`.
-
-  + A aplicação utiliza um `<button>` com o atributo `id` com o valor `reset-button` para permitir à usuária, através de um clique, limpar o conteúdo da caixa de texto.
-
+  
 ### CSS
 
 - **Uso de seletores CSS**
 
-  + A aplicação utiliza `seletores CSS de tipo` para estilizar o `<header>` e o `<footer>`.
-
-  + A aplicação utiliza `seletores CSS de classe` para estilizar os `<li>` mencionados anteriormente.
-
-  + A aplicação utiliza `seletores de atributo` para estilizar o`<textarea>` utilizando o atributo `name`.
-
-  + A aplicação utiliza `seletores CSS de ID` para estilizar o `<button>` com o atributo `id` com o valor `reset-button`.
-
+  
 - **Modelo de caixa (box model): borda, margem, preenchimento**
 
-  + As `classes CSS` dos `<li>` filhos da `<ul>` definem um estilo usando as propriedades do modelo de caixa, (`background`,`border`, `margin` e `padding`).
-
+  
 ### Web APIs
 
 - **Uso de seletores do DOM**
 
-  + A aplicação utiliza o `seletor do DOM querySelector`.
+  - **Manipulação de eventos do DOM (ouvintes, propagação, delegação)**
 
-  + A aplicação utiliza o `seletor do DOM getElementById`.
+  
+  - **Manipulação dinâmica do DOM**
 
-- **Manipulação de eventos do DOM (ouvintes, propagação, delegação)**
-
-  + A aplicação registra um Event Listener para ouvir o evento `keyup` do `<textarea>` e atualiza as métricas quando o texto for digitado na caixa de texto.
-
-  + A aplicação registra um Event Listener para ouvir o evento `click` do `<button>` que limpa o conteúdo da caixa de texto.
-
-- **Manipulação dinâmica do DOM**
-
-  + A aplicação atualiza o atributo `textContent` dos `<li>` que exibem as métricas do texto.
-
+ 
 ### JavaScript
 
 - **Tipos de dados primitivos**
 
-  + A aplicação converte valores do tipo `string` para o tipo `number`.
-
 - **Strings (cadeias de caracteres)**
-
-  + A aplicação utiliza métodos para manipular strings como `split` `trim` e `replace`.
 
 - **Variáveis (declaração, atribuição, escopo)**
 
-  + A aplicação declara variáveis com `let`e `const`.
-
-  + A aplicação NÃO declara variáveis com `var`.
-
 - **Uso de condicionais (if-else, switch, operador ternário, lógica booleana)**
-
-  + A aplicação utiliza a estrutura `if..else` para avaliar condições.
 
 - **Uso de loops (while, for, for..of)**
 
-  + A aplicação utiliza a estrutura `for` para criar um loop.
-
 - **Funções (parâmetros, argumentos, retorno)**
-
-  + O objeto `analyzer` contém um método `getWordCount` para calcular a contagem de palavras de um texto.
-
-  + O objeto `analyzer` contém um método `getCharacterCount` para calcular a contagem de caracteres de um texto.
-
-  + O objeto `analyzer` contém um método `getCharacterCountExcludingSpaces` para calcular a contagem de caracteres excluindo espaços e pontuações de um texto.
-
-  + O objeto `analyzer` contém um método `getNumbersCount` para contar quantos  números existem em um texto.
-
-  + O objeto `analyzer` contém um método `getNumbersSum` para calcular a soma dos números em um texto.
-
-  + O objeto `analyzer` contém um método `getAverageWordLength` para calcular o comprimento médio das palavras em um texto.
 
 - **Testes unitários (unit tests)**
 
-  + Todos os testes unitários passaram.
-
 - **Módulos do ECMAScript (ES Modules)**
-
-  + A aplicação utiliza`import` e `export` para importar e exportar valores de um módulo JavaScript.
 
 - **Uso de linter (ESLINT)**
 
-  + Ao executar o linter, não são exibidos erros de formato e estilo.
-
 - **Uso de identificadores descritivos (Nomenclatura e Semântica)**
-
-  + O código utiliza identificadores descritivos para variáveis e funções.
 
 ### Controle de Versões (Git e GitHub)
 
 - **GitHub: Criação de conta e repositórios, configuração de chaves SSH**
 
-  + Foi criada uma uma conta no [Github](https://github.com/FabineSpecian).
+  + [Github](https://github.com/FabineSpecian).
 
-  + Foi configurada sua conta do Github com uma chave SSH.
 
 - **Git: Controle de versões com git (clone, add, commit, push)**
 
-  + Foi criado um _fork_ para o projeto.
-
-  + Foi clonado seu repositório usando uma chave SSH.
-
-  + Foram criados _commits_ e foram salvos no Github.
-
 - **GitHub: Implantação com GitHub Pages**
-
-  + A aplicação está implantada no GitHub Pages.
 
 ### Foco na Usuária
 
@@ -292,18 +214,17 @@ A seguir estão os objetivos de aprendizagem percorridos durante a realização 
 
 - **Projetar em diferentes níveis de fidelidade**
 
-  + Foi criados protótipos de baixa fidelidade para a UI (interface gráfica). Abaixo segue o prototipo do projeto. 
+  + Foi criado protótipo de baixa fidelidade para a UI (interface gráfica). Abaixo segue o prototipo do projeto. 
 
 ![prototipo](https://github.com/FabineSpecian/SAP012-text-analyzer/blob/main/src/Prototipo.png?raw=true)
 
-O resultado final segue algumas estruturas, commo a dividão em duas colunas, a primeira com a caixa de texto e botão Limpar e a segunda com as métricas apresentadas ao usuário.
+O resultado final segue algumas estruturas do protótipo, como a divisão em duas colunas, a primeira com a caixa de texto e botão Limpar e a segunda com as métricas apresentadas ao usuário.
 Essas alterações foram consideradas ao longo projeto, pois busquei trazer a identidade da Laboratoria, com suas cores no design da aplicação.
 
 
 - **Seguir os princípios básicos do design visual**
 
-  + Foram consideradas as regras básicas de design visual para projetar a UI (interface gráfica).
-
+  
 ## 6. Testes
 
 Este projeto contou com 3 conjuntos de testes para verificar se
