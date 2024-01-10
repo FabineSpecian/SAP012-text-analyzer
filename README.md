@@ -378,22 +378,23 @@ na imagem a seguir:
 ## 7. Ferramentas utilizadas no processo
 
 
-1. Canva - o que é...
+1. Canva - é uma plataforma de design gráfico que permite aos usuários criar gráficos de mídia social, apresentações, infográficos, pôsteres e outros conteúdos visuais. 
 
-    - **Construção do Protótipo**: a ap
+    - **Construção do Protótipo**
    
-2. Visual Studio Code - o que é...
+2. Visual Studio Code - é um editor de código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle de versionamento Git incorporado, realce de sintaxe, complementação inteligente de código, snippets e refatoração de código
 
-    - **Construção do Código**: a a
+    - **Construção do Código**
 
-3. Sublime Text - o que é...
+3. Sublime Text - é um editor de código-fonte multi-plataforma e shareware com uma interface de programação de aplicativos para diferentes linguagens.
 
-    - **Anotações**: a apl
+    - **Anotações e Organização**
 
 
 ## 8. Sobre a autora
 
-<a href="https://github.com/FabineSpecian" src="" width="100px;" alt=""/>
+<a href="https://github.com/FabineSpecian">
+  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/138730011?s=400&u=83d2915fd39990d1893bfff935ea14b98e86f8a6&v=4" width="100px;" alt=""/>
  <br />
 
 <sub><b>Fabine Specian</b></sub></a> <a href="https://github.com/FabineSpecian" title="https://github.com/FabineSpecian"></a>
@@ -403,6 +404,6 @@ Estudante do bootcamp Laboratoria com ênfase em desenvolvimento front-end com f
 Entusiasta em contribuir para projetos desafiadores. 
 
 
-[![Linkedin Badge](https://img.shields.io/badge/-Thiago-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tgmarinho/)](https://www.linkedin.com/in/tgmarinho/) 
+[![Linkedin Badge](https://img.shields.io/badge/-Fabine_Specian-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fabine-paim-dias-specian-406316239//)](https://www.linkedin.com/in/fabine-paim-dias-specian-406316239//) 
 
-[![Gmail Badge](https://img.shields.io/badge/-tgmarinho@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:fabine.specian@gmail.com)](mailto:fabine.specian@gmail.com)  
+[![Gmail Badge](https://img.shields.io/badge/-fabine.specian@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:fabine.specian@gmail.com)](mailto:fabine.specian@gmail.com)  
